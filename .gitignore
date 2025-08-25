@@ -1,0 +1,68 @@
+# Build directories
+cmake-build-debug/
+build/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+rules.ninja
+build.ninja
+
+# Compiled objects and binaries
+*.o
+*.obj
+*.so
+*.a
+*.lib
+*.dll
+*.exe
+*.out
+*.app
+*.dSYM/
+
+# Visual Studio
+.vs/
+*.vcxproj*
+*.sln
+*.user
+*.suo
+
+# CLion / JetBrains
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.swp
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Ignore output files sometimes produced by assignments
+output.txt
+
+# Ignore node_modules if ever present
+node_modules/
+
+# Ignore Python virtual envs
+venv/
+.env/
+
+# Git submodule metadata (keep if you actually use submodules)
+# .gitmodules
+
+# Do not track large personal files by accident
+*.zip
+*.tar.gz
+*.7z
+*.rar
+
+# End of .gitignore
